@@ -1,0 +1,133 @@
+html{
+    height: 100%;
+    box-sizing: border-box;
+}
+*,*:before,*:after{
+    box-sizing: inherit;/*inherit: heredara el valor de arriba*/
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    margin-top: 10px;
+    overflow: hidden;
+    font-family: popppins;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d37ec6+0,ffc873+36,ffc873+53,ffc873+71,ff426e+100&1+0,1+0,0.8+25,0.8+76,1+100 */
+    background: -moz-linear-gradient(45deg,  rgba(211,126,198,1) 0%, rgba(242,177,140,0.8) 25%, rgba(255,200,115,0.8) 36%, rgba(255,200,115,0.8) 53%, rgba(255,200,115,0.8) 71%, rgba(255,177,114,0.8) 76%, rgba(255,66,110,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg,  rgba(211,126,198,1) 0%,rgba(242,177,140,0.8) 25%,rgba(255,200,115,0.8) 36%,rgba(255,200,115,0.8) 53%,rgba(255,200,115,0.8) 71%,rgba(255,177,114,0.8) 76%,rgba(255,66,110,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg,  rgba(211,126,198,1) 0%,rgba(242,177,140,0.8) 25%,rgba(255,200,115,0.8) 36%,rgba(255,200,115,0.8) 53%,rgba(255,200,115,0.8) 71%,rgba(255,177,114,0.8) 76%,rgba(255,66,110,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d37ec6', endColorstr='#ff426e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.card{
+    margin: 0 auto;
+    width: 450px;
+    height: 600px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 20px gray;
+
+}
+div.padre{
+    width: 450px;
+    height: 200px;
+    position: relative;
+}
+div.hijo{
+    width: 128px;
+    height: 128px;
+    position: absolute;
+    bottom: -40px;
+    left: 160px;
+
+}
+img.img-background{
+    width: 450px;
+    height: 200px;
+    border-bottom:4px solid #ff3867;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+img.avatar{
+    width: 128px;
+    height: 128px;
+    border-radius: 100px;
+    border: 4px solid #ff3867;
+}
+h1{
+    font-family: Arial;
+}
+p.location-icon{
+    color: #a05d5d;
+    text-decoration: none;
+    font-family: Arial;
+}
+div p.descripcion{
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    font-family: poppinsregular;
+    font-size: 12px;
+}
+a{
+    font-size: 14px;
+}
+.button{
+    background-color: white;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 4px solid #ff3867;
+    padding: 8px 30px;
+    text-decoration: none;
+    color: rebeccapurple;
+    font-family: poppinsregular;
+    transition: all .4s ease;
+}
+.button:hover{
+    background-color: #ff3867;
+    color: white;
+}
+svg.bi.bi-linkedin{
+    margin: 0 auto;
+    margin-left: 2px;
+    margin-bottom: -2px;
+}
+
+/*footer*/
+footer .contenedor div{
+    font-size: 12px;
+    margin: 40px auto;
+    width: 33.3%;
+    float: left;
+}
+footer .contenedor div h4{
+    margin-bottom: 5px;
+    font-family: poppinsregular;
+    color: gray;
+}
+footer .contenedor div p{
+    margin: 10px;
+    font-family: poppinsregular;
+    color: gray;
+}
+footer .contenedor div svg{
+    color: mediumpurple;
+}
+
+
+.clearfix::before,
+.clearfix::after {
+    content: " ";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+
