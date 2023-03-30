@@ -12,19 +12,20 @@ html{
 body{
     height: 100%;
     margin-top: 10px;
-    overflow: hidden;
+    overflow-x: hidden;
     font-family: popppins;
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d37ec6+0,ffc873+36,ffc873+53,ffc873+71,ff426e+100&1+0,1+0,0.8+25,0.8+76,1+100 */
     background: -moz-linear-gradient(45deg,  rgba(211,126,198,1) 0%, rgba(242,177,140,0.8) 25%, rgba(255,200,115,0.8) 36%, rgba(255,200,115,0.8) 53%, rgba(255,200,115,0.8) 71%, rgba(255,177,114,0.8) 76%, rgba(255,66,110,1) 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(45deg,  rgba(211,126,198,1) 0%,rgba(242,177,140,0.8) 25%,rgba(255,200,115,0.8) 36%,rgba(255,200,115,0.8) 53%,rgba(255,200,115,0.8) 71%,rgba(255,177,114,0.8) 76%,rgba(255,66,110,1) 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(45deg,  rgba(211,126,198,1) 0%,rgba(242,177,140,0.8) 25%,rgba(255,200,115,0.8) 36%,rgba(255,200,115,0.8) 53%,rgba(255,200,115,0.8) 71%,rgba(255,177,114,0.8) 76%,rgba(255,66,110,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d37ec6', endColorstr='#ff426e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .card{
     margin: 0 auto;
-    width: 330px;
+    width: 300px;
     height: auto;
     text-align: center;
     border-radius: 10px;
@@ -32,7 +33,7 @@ body{
     box-shadow: 0 0 20px gray;
 }
 div.padre{
-    width: 330px;
+    width: 300px;
     height: 120px;
     position: relative;
 }
@@ -41,12 +42,12 @@ div.hijo{
     height: 68px;
     position: absolute;
     bottom: -44px;
-    left: 135px;
+    left: 120px;
 
 }
 img.img-background{
-    width: 330px;
-    height: 140px;
+    width: 300px;
+    height: 139px;
     border-bottom:4px solid #ff3867;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
@@ -129,8 +130,7 @@ a{
     color: gray;
 }
 
-@media only screen
-and (min-width: 320px){
+@media only screen and (min-width: 480px){
     .card{
         margin: 0 auto;
         width: 450px;
