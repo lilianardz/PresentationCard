@@ -12,8 +12,7 @@ html{
 body{
     height: 100%;
     margin-top: 30px;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
+    margin-bottom: 10px;
     overflow-x: hidden;
     font-family: popppins;
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d37ec6+0,ffc873+36,ffc873+53,ffc873+71,ff426e+100&1+0,1+0,0.8+25,0.8+76,1+100 */
@@ -33,7 +32,7 @@ body{
     border-radius: 10px;
     background-color: white;
     box-shadow: 0 0 20px gray;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 div.padre{
     width: 320px;
